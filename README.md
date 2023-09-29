@@ -4,7 +4,7 @@
   <p align="center">
     <a href="https://github.com/AnandaFPP/RESTAPI-Technicaltest"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="">Api Demo</a>
+    <a href="https://restapi-technicaltest.vercel.app/">Api Demo</a>
   </p>
 </p>
 

@@ -7,7 +7,7 @@ router
 
   .post("/register", usersController.registerUser)
   .post("/login", usersController.loginUser)
-  .get("/profile", usersController.profileUser)
+  .get("/profile", protect, usersController.profileUser)
   .post("/refreshToken", protect, usersController.refreshToken)
 
 module.exports = router;
